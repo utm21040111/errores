@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 import cors from "cors";
 import express from "express";
 import dotenv from "dotenv";
-import { testEmpleados } from "./backend/controller/controllerEmpleados.js";
+import { testEmpleados } from "./backend/controller/controllerEmpleados";
 
 dotenv.config();
 mongoose

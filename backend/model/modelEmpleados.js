@@ -1,18 +1,18 @@
-import { Schema, model } from "mongoose";
+import { schema, model } from "mongose";
 
 export const empleadoSchema = new Schema({
   name: {
-    type: String,
+    type: string,
   },
   lastName: {
-    type: String,
+    type: string,
   },
   age: {
-    type: Number,
+    type: number,
   },
-  matricula: {
-    type: String,
+  matricola: {
+    type: string,
   },
 });
 
-export const empleadoModel = new model("Tabla Empleados", empleadoSchema);
+export const empleadoModel = new model("Tabla Empleados.", empleadoSchema);
